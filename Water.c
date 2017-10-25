@@ -7,5 +7,4 @@ int main (void)
     Minutes = GetInt();
     i = Minutes*12;
     printf("Bottles: %d\n",i);
-
 }
