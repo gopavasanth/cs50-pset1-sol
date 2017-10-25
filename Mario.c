@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <cs50.h>
 int main (void)
 {
@@ -23,6 +23,6 @@ int n;
        printf("#");
        }
 
-       printf("\n")   ;
+       printf("\n");
    }
 }
