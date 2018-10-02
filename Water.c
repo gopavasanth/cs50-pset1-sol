@@ -1,11 +1,9 @@
-#include <stdio.h>
 #include <cs50.h>
-int main (void)
-{
-    int Minutes,i;
-    printf("Minutes:");
-    Minutes = GetInt();
-    i = Minutes*12;
-    printf("Bottles: %d\n",i);
+#include <stdio.h>
 
+int main(void)
+{
+    printf("Minutes: ");
+    int x = get_int();
+    printf("Bottles: %i\n", x*12);
 }
