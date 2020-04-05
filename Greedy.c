@@ -13,7 +13,7 @@ int main(void)
      }
      while (n < 0);
 
-     n *= 100.0;
+     n = n * 100.0;
      amount = (int) round(n);
 
      while (amount >= 25)
@@ -41,6 +41,6 @@ int main(void)
      }
 
          printf("%d\n", count);
-
+ 
      return 0;
  }
